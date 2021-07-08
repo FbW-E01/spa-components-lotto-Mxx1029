@@ -1,0 +1,64 @@
+.numbers-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    padding: 1.5rem 0;
+}
+  
+.number {
+    width: 80px;
+    height: 80px;
+    border: 1px solid lightblue;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.number7 {
+    width: 80px;
+    height: 80px;
+    background-color: lightblue;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 525px;
+}
+
+.reset {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    background-color: #fff;
+    color: lightblue;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    width: 150px;
+}
+
+.reset:hover {
+    cursor: pointer;
+    outline: auto;
+}
+
+
+.show {
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    width: 350px;
+}
+
+.show:hover {
+    cursor: pointer;
+    outline: auto;
+}
